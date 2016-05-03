@@ -13,8 +13,9 @@ for(i=1;i<=2;i++){
 		matriz[i][j]=parseInt(prompt("Ingresa el numero de la matriz"+i+j));
 
 	}
-	
+	document.write("<br>"+"la matriz ingresada es"+"<br>"+matriz[i][1]+
+					"\t"+matriz[i][2]
+		);
 }
-det=matriz[1][1]*matriz[2][2]-matriz[2][1]*matriz[1][2];
-document.write("La determinante es "+ det); 
+
 }
